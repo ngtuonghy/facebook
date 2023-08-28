@@ -1,0 +1,179 @@
+.brand {
+  width: 50px;
+  height: 50px;
+  filter: invert(46%) sepia(99%) saturate(1449%) hue-rotate(176deg)
+    brightness(100%) contrast(91%);
+  margin-left: 8px;
+}
+.profile {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+nav.primary-nav {
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  background: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  margin-inline: 8px;
+}
+nav div.left {
+  display: flex;
+  align-items: center;
+}
+
+nav div.left .search-box {
+  display: flex;
+  align-items: center;
+  height: 50%;
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+nav div.left .search-box .bi {
+  color: #919191;
+}
+nav div.left .search-box input {
+  width: 150px;
+  font-size: 16px;
+  background-color: rgba(240, 240, 240, 1);
+  border: none;
+  margin-left: 10px;
+}
+nav div.left .search-box input:focus {
+  border: none;
+  outline: none;
+}
+
+nav div.center {
+  display: flex;
+  align-items: center;
+}
+nav div.center .bi {
+  font-size: 28px;
+  padding-inline: 40px;
+  line-height: 55px;
+  /* padding-block: 10px; */
+}
+nav div.center .bi:hover {
+  background-color: rgba(240, 240, 240, 1);
+  border-radius: 20px;
+}
+nav div.right {
+  display: flex;
+  align-items: center;
+  /* padding-inline: 10px; */
+}
+nav div.right .bi {
+  font-size: 18px;
+  padding-left: 11px;
+  padding-right: 11px;
+  border-radius: 50%;
+  background-color: rgba(240, 240, 240, 1);
+  line-height: 38px;
+  margin-right: 8px;
+}
+nav div.right .text {
+  width: 105px;
+}
+nav div.right .text:hover {
+  background-color: #e3e3e3;
+}
+nav div.right .bi:hover {
+  background-color: #e3e3e3;
+}
+nav div.right .text {
+  margin-right: 8px;
+  background-color: rgba(240, 240, 240, 1);
+  padding-inline: 8px;
+  border-radius: 20px;
+  line-height: 38px;
+}
+main {
+  display: grid;
+  grid-template-columns: 23% 2fr 1fr;
+  column-gap: 100px;
+  margin-top: 60px;
+}
+
+nav .menubar-container {
+  width: 25%;
+  height: 92vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  padding: 20px 6px 5px 10px;
+  position: fixed;
+}
+main nav .menubar-container::-webkit-scrollbar {
+  width: 9px;
+}
+main nav .menubar-container::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #f0f2f5;
+}
+main nav .menubar-container:hover::-webkit-scrollbar-thumb {
+  border-radius: 20px;
+  background: #cccccc;
+}
+main nav .icon-boxes {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+main nav .icon-boxes:hover {
+  background-color: #e3e3e3;
+  border-radius: 10px;
+}
+.icon-boxes i {
+  font-size: 30px;
+  color: blue;
+}
+.profile-nav {
+  width: 38px;
+  height: 38px;
+}
+.icon-boxes i.bi-chevron-down {
+  background-color: #ccc;
+  padding-inline: 10px;
+  line-height: 38px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+.icon-boxes p {
+  margin-left: 20px;
+}
+.profile-nav {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+.icon-boxes p.user {
+  margin-left: 12px;
+}
+.bi-list {
+  display: none;
+}
+.bi-house {
+  color: blue;
+}
+
+nav.primary-nav .center i.bi-house {
+  position: relative;
+}
+
+nav.primary-nav .center i.bi-house::after {
+  content: "";
+  width: 100%;
+  background: #045be6;
+  position: absolute;
+  height: 4px;
+  bottom: -3px;
+  left: 0;
+}

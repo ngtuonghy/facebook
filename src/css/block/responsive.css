@@ -1,0 +1,35 @@
+@media (max-width: 1100px) {
+  .bi-list {
+    display: inline;
+  }
+  nav div.left .search-box input {
+    display: none;
+  }
+  nav.menu-bar {
+    display: none;
+  }
+  main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 100px;
+    margin-top: 60px;
+    margin-left: 100px;
+  }
+}
+@media (max-width: 900px) {
+  nav div.left .search-box input {
+    display: none;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+    margin-inline: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .primary-nav .center {
+    display: none;
+  }
+}

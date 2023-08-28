@@ -1,0 +1,121 @@
+.center .status {
+  width: 100%;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+.profile-status {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.status__think {
+  align-items: center;
+  display: flex;
+  height: 70px;
+}
+p.think {
+  margin-left: 10px;
+  font-size: 20px;
+  width: 100%;
+  line-height: 40px;
+  border-radius: 999px;
+  padding-inline: 10px;
+  background: rgba(240, 240, 240, 1);
+}
+.status__option {
+  display: flex;
+  width: auto;
+  padding: 10px;
+  justify-content: center;
+}
+.status__option-contrainer {
+  display: flex;
+  padding-inline: 25px;
+  align-items: center;
+  line-height: 50px;
+  border-radius: 10px;
+}
+.status__option-contrainer:hover {
+  background-color: #e3e3e3;
+}
+.status__option-contrainer p {
+  font-size: 18px;
+  margin-left: 5px;
+}
+.status__option-contrainer i {
+  font-size: 22px;
+}
+
+article {
+  width: 100%;
+  border-radius: 10px;
+  background: white;
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  /* padding: 10px 10px 0 10px; */
+}
+.friend-post__name {
+  margin-left: 10px;
+}
+
+.friend-post__name-img {
+  padding: 10px 10px 0 10px;
+  display: flex;
+}
+.friend-post__content {
+  margin-top: 5px;
+}
+
+.felling-icon-container {
+  display: flex;
+  justify-content: center;
+  color: black;
+  margin-block: 5px;
+}
+.felling-icon:hover {
+  background-color: #e3e3e3;
+}
+.felling-icon i {
+  font-size: 24px;
+}
+
+.felling-icon p {
+  margin-left: 11px;
+}
+.felling-icon {
+  display: flex;
+  align-items: center;
+  padding-inline: 60px;
+  line-height: 30px;
+}
+.felling-container {
+  margin-top: 5px;
+  display: flex;
+}
+
+.bi-suit-heart-fill {
+  position: relative;
+  left: -5px;
+  color: red;
+}
+.bxs-like {
+  color: blue;
+}
+.friend-post__content .friend-post__content-text {
+  padding: 10px 10px 0 10px;
+}
+
+.friend-post__content img {
+  padding: 10px 0 0 0;
+  width: 100%;
+}
+main .right-container {
+  position: fixed;
+  margin-top: 20px;
+}
