@@ -32,4 +32,8 @@
   .primary-nav .center {
     display: none;
   }
+  main {
+    display: inline-block;
+    margin-inline: 0;
+  }
 }
